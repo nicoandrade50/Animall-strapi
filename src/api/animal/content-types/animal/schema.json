@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "animals",
+  "info": {
+    "singularName": "animal",
+    "pluralName": "animals",
+    "displayName": "Animal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "perro": {
+      "type": "string"
+    },
+    "peso": {
+      "type": "decimal"
+    },
+    "nacimiento": {
+      "type": "date"
+    },
+    "Extinto": {
+      "type": "boolean"
+    }
+  }
+}
